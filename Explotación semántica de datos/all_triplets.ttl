@@ -1,0 +1,42 @@
+@prefix lncrna: <http://lncrna.com/resources/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix PubMed: <https://pubmed.ncbi.nlm.nih.gov/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix NCIT: <http://purl.obolibrary.org/obo/NCIT_> .
+@prefix SIO: <http://semanticscience.org/resource/SIO_> .
+@prefix BCO: <http://rs.tdwg.org/dwc/terms/> .
+@prefix uniprot: <http://purl.uniprot.org/core/> .
+@prefix BAO: <http://www.bioassayontology.org/bao#BAO_> .
+@prefix ENSEMBL: <http://ensembl.org/gene/> .
+@prefix CCF: <http://purl.org/ccf/> .
+
+
+lncrna:PUB_1
+	dc:title "LncRNA MIAT/miR-133a-3p axis regulates atrial fibrillation and atrial fibrillation-induced myocardial fibrosis" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32130618 ;
+	rdf:type NCIT:C47902 .
+
+lncrna:ARN_1
+	SIO:001156 "UP" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097767 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "Target" ;
+	BCO:pathway "Pathway" ;
+	SIO:000225 "Function" ;
+	rdfs:label "Miat" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_1 ;
+	BAO:0002848 lncrna:DISEASE_1 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "Species" .
+
+lncrna:DISEASE_1
+	rdfs:label "atrial_fibrillation" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_1 .

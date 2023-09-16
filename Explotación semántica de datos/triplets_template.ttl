@@ -1,0 +1,27 @@
+lncrna:PUB_{index}
+	dc:title "{Title}" ;
+	dc:date {Year} ;
+	owl:sameAs PubMed:{PMID} ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_{index}
+	SIO:001156 "{Expression}" ;
+	owl:sameAs ENSEMBL:{ID} ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "{Target}" ;
+	BCO:pathway "{Pathway}" ;
+	SIO:000225 "{Function}" ;
+	rdfs:label "{symbol}" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_{index} ;
+	BAO:0002848 lncrna:DISEASE_{index} .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "{Species}" .
+
+lncrna:DISEASE_{index}
+	rdfs:label "{Disease}" ;
+	CCF:tissue_provider_name "{Tissue}" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_{index} .

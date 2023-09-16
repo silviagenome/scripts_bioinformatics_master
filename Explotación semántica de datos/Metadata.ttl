@@ -1,0 +1,36 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#> 
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX cc: <http://creativecommons.org/ns#>
+
+<http://lncrna.com/dataset/Dataset_lncrna_mus> rdf:type dcat:Dataset ;
+                                    rdfs:label "LncRNA-fibrotic diseases association data" ;
+                                    foaf:primaryTopic "ARN" ;
+                                    prov:wasDerivedFrom  <http://www.medsysbio.org/FDRdb/> ;
+                                    dct:License <http://creativecommons.org/licenses/MIT/> ;
+                                    dcat:distribution <https://lncrna.com/csv/Data_lncrna_mus> ;
+                                    dcat:distribution <https://lncrna.com/sparql/Query_lncrna_mus> ;
+                                    sd:namedGraph <https://lncrna.com/graph/lncrna_mus> .
+
+<https://lncrna.com/csv/Data_lncrna_mus> a dcat:Distribution ;
+  dcat:downloadURL <http://dayhoff.inf.um.es:8787/s/fea6921f2ed726d1e14e0/files/entrega_semantica/mus_data.csv?_xsrf=2%7Cd96dc2fa%7C8d5006c244eb13b2801e925bf79097ba%7C1670859520> ;
+  dct:license <http://creativecommons.org/licenses/by/3.0/es/> ;
+  dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> .
+
+<https://lncrna.com/sparql/Query_lncrna_mus> a dcat:Distribution ;
+  dcat:accessURL <http://dayhoff.inf.um.es:3036/blazegraph/namespace/lncrna_mus/sparql> ;
+  dct:license <http://creativecommons.org/licenses/by/3.0/es/> .
+
+<https://lncrna.com/graph/lncrna_mus> rdfs:label "LncRNA-fibrotic diseases association data graph"@es ;
+                            rdf:type sd:NamedGraph .
+
+<http://creativecommons.org/licenses/MIT/>
+  a cc:License ;
+  cc:permits cc:Distribution, cc:Reproduction, cc:DerivativeWorks ;
+  cc:licenseClass <http://creativecommons.org/license/software> ;
+  cc:requires cc:Notice ;
+  cc:legalcode <http://opensource.org/licenses/mit-license.php> .

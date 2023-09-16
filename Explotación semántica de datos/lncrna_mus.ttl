@@ -1,0 +1,3682 @@
+@prefix lncrna: <http://lncrna.com/resources/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix PubMed: <https://pubmed.ncbi.nlm.nih.gov/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix NCIT: <http://purl.obolibrary.org/obo/NCIT_> .
+@prefix SIO: <http://semanticscience.org/resource/SIO_> .
+@prefix BCO: <http://rs.tdwg.org/dwc/terms/> .
+@prefix uniprot: <http://purl.uniprot.org/core/> .
+@prefix BAO: <http://www.bioassayontology.org/bao#BAO_> .
+@prefix ENSEMBL: <http://ensembl.org/gene/> .
+@prefix CCF: <http://purl.org/ccf/> .
+
+lncrna:PUB_1
+	dc:title "LncRNA MIAT/miR-133a-3p axis regulates atrial fibrillation and atrial fibrillation-induced myocardial fibrosis" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32130618 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_1
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097767 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "MIR-133A-3P" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Atrial fibrillation(AF)-induced myocardial fibrosis. and the functional regulatory pathway of Miat targeting miR-133a-3p." ;
+	rdfs:label "Miat" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_1 ;
+	BAO:0002848 lncrna:DISEASE_1 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_1
+	rdfs:label "atrial_fibrillation" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_1 .
+
+lncrna:PUB_2
+	dc:title "Down-regulation of myocardial infarction associated transcript 1 improves myocardial ischemia-reperfusion injury in aged diabetic rats by inhibition of activation of NF-KB signaling pathway" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30611788 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_2
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097636 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NF-KAPPA B SIGNALING PATHWAY" ;
+	SIO:000225 "Down-regulation of miRt1 improves myocardial i/r injury in aged diabetic rats by inhibition of activation of NF-KB signaling pathway." ;
+	rdfs:label "Mirt1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_2 ;
+	BAO:0002848 lncrna:DISEASE_2 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_2
+	rdfs:label "myocardial_infarction" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_2 .
+
+lncrna:PUB_3
+	dc:title "LncRNA GAS5 controls cardiac fibroblast activation and fibrosis by targeting miR-21 via PTEN/MMP-2 signaling pathway" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28526319 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_3
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000053332 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "PTEN-MMP2" ;
+	BCO:pathway "PI3K-AKT SIGNALING PATHWAY" ;
+	SIO:000225 "Gas5 plays a suppressive role in cardiac fibrosis via negative regulation of miR-21. Gas5 that upregulated or downregulated the expression of PTEN through miR-21 in cardiac fibroblasts." ;
+	rdfs:label "Gas5" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_3 ;
+	BAO:0002848 lncrna:DISEASE_3 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_3
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_3 .
+
+lncrna:PUB_4
+	dc:title "Long noncoding RNA H19 controls DUSP5/ERK1/2 axis in cardiac fibroblast proliferation and fibrosis" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27318893 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_4
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "DUSP5" ;
+	BCO:pathway "MAPK SIGNALING PATHWAY" ;
+	SIO:000225 "H19 endogenous expression is overexpressed in cardiac fibroblast and fibrosis tissues. and an opposite pattern is observed for Dusp5. H19 ectopic overexpression reduces Dusp5 abundance and increases the proliferation of cardiac fibroblast. whereas h19 silencing causes the opposite effects." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_4 ;
+	BAO:0002848 lncrna:DISEASE_4 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_4
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_4 .
+
+lncrna:PUB_5
+	dc:title "Long Noncoding RNA H19 Acts as a Competing Endogenous RNA to Mediate CTGF Expression by Sponging miR-455 in Cardiac Fibrosis" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28753062 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_5
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "CTGF" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "H19 knockdown could enhance the antifibrotic role of miR-455 and attenuate the CTGF expression and further decrease fibrosis-associated protein synthesis (collagen i. iii. and alfa-SMA)." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_5 ;
+	BAO:0002848 lncrna:DISEASE_5 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_5
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_5 .
+
+lncrna:PUB_6
+	dc:title "LncRNA KCNQ1OT1 contributes to cardiomyocyte apoptosis by targeting FUS in heart failure" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32497620 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_6
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000101609 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "FUS" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Kcnq1ot1 ovexpression improved myocardial histopathological changes. reduced myocardial fibrosis areas. down-regulated FUS expression. and inhibited cell apoptosis of heart failure(HF) mice." ;
+	rdfs:label "Kcnq1ot1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_6 ;
+	BAO:0002848 lncrna:DISEASE_6 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_6
+	rdfs:label "heart_failure" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_6 .
+
+lncrna:PUB_7
+	dc:title "Silencing long non-coding RNA Kcnq1ot1 alleviates pyroptosis and fibrosis in diabetic cardiomyopathy" ;
+	dc:date 2018 ;
+	owl:sameAs PubMed:30250027 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_7
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000101609 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NOD-LIKE RECEPTOR SIGNALING PATHWAY" ;
+	SIO:000225 "Kcnq1ot1/miR-214-3p/caspase-1/TGF-beta signal pathway presents a new mechanism of diabetes cardiomyopathy (DCM) progression and could potentially be a novel therapeutic target." ;
+	rdfs:label "Kcnq1ot1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_7 ;
+	BAO:0002848 lncrna:DISEASE_7 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_7
+	rdfs:label "diabetic_cardiomyopathy" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_7 .
+
+lncrna:PUB_8
+	dc:title "MIAT Is a Pro-fibrotic Long Noncoding RNA Governing Cardiac Fibrosis in Post-infarct Myocardium" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:28198439 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_8
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097767 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "MIR-24,FURIN" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "Knockdown of endogenous miat by its sirna reduced cardiac fibrosis and improved cardiac function and restored the deregulated expression of the fibrosis-related regulators." ;
+	rdfs:label "Miat" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_8 ;
+	BAO:0002848 lncrna:DISEASE_8 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_8
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_8 .
+
+lncrna:PUB_9
+	dc:title "Long non-coding RNA GAS5 regulates myocardial ischemia-reperfusion injury through the PI3K/AKT apoptosis pathway by sponging miR-532-5p" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:31985016 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_9
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000053332 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "MIRI" ;
+	BCO:pathway "PI3K-AKT SIGNALING PATHWAY" ;
+	SIO:000225 "Lncrna gas5 was able to regulate miRNA through the PI3k/Akt apoptosis pathway by sponging miR-532-5p." ;
+	rdfs:label "Gas5" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_9 ;
+	BAO:0002848 lncrna:DISEASE_9 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_9
+	rdfs:label "cardiovascular_diseases" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_9 .
+
+lncrna:PUB_10
+	dc:title "Long noncoding RNA MALAT1 mediates cardiac fibrosis in experimental postinfarct myocardium mice model" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30146700 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_10
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092341 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "MIR-145" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "Lncrna malat1 promotes cardiac fibrosis and deteriorates cardiac function post-myocardial infarction (MI) by regulating TGF-beta activity via miR-145." ;
+	rdfs:label "Malat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_10 ;
+	BAO:0002848 lncrna:DISEASE_10 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_10
+	rdfs:label "myocardial_infarction" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_10 .
+
+lncrna:PUB_11
+	dc:title "LncRNA SNHG7 promotes cardiac remodeling by upregulating ROCK1 via sponging miR-34-5p" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32507765 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_11
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000086775 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "MIR-34-5P" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Lncrna snhg7 could promote cardiac fibrosis via targeting miR-34-5p through acting as a ceRNA in mice aftermyocardial infarction (MI)." ;
+	rdfs:label "Snhg7" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_11 ;
+	BAO:0002848 lncrna:DISEASE_11 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_11
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_11 .
+
+lncrna:PUB_12
+	dc:title "Fendrr involves in the pathogenesis of cardiac fibrosis via regulating miR-106b/SMAD3 axis" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:31982134 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_12
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097336 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "TAC" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Loss-function of fendrr significantly alleviated the cardiac fibrosis phenotypes induced by TAC. indicating that fendrr is required for the pathogenesis of cardiac fibrosis." ;
+	rdfs:label "Fendrr" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_12 ;
+	BAO:0002848 lncrna:DISEASE_12 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_12
+	rdfs:label "heart_failure" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_12 .
+
+lncrna:PUB_13
+	dc:title "Upregulation of lncRNA RMRP promotes the activation of cardiac fibroblasts by regulating miR-613" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31485650 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_13
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000115420 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "miR-613 was indicated to mediate the promoting effect of RMRP on cardiac fibroblast activation." ;
+	rdfs:label "Rmrp" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_13 ;
+	BAO:0002848 lncrna:DISEASE_13 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_13
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_13 .
+
+lncrna:PUB_14
+	dc:title "Long noncoding RNA Crnde attenuates cardiac fibrosis via Smad3-Crnde negative feedback in diabetic cardiomyopathy" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30748104 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_14
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000031736 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "Overexpression of Crnde attenuated cardiac fibrosis and enhanced cardiac function in mice with diabetes cardiomyopathy (DCM)." ;
+	rdfs:label "Crnde" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_14 ;
+	BAO:0002848 lncrna:DISEASE_14 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_14
+	rdfs:label "diabetic_cardiomyopathy" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_14 .
+
+lncrna:PUB_15
+	dc:title "Overexpression of lncRNA GAS5 attenuates cardiac fibrosis through regulating PTEN/MMP-2 signal pathway in mice" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31173316 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_15
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000053332 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "PI3K-AKT SIGNALING PATHWAY" ;
+	SIO:000225 "Overexpression of gas5 after injection with PCDNA-gas5 could attenuate cardiac fibrosis and improve cardiac function through increasing the expression of PTEN and decreasing the expression of MMP-2. alfa-SMA. and collagen i." ;
+	rdfs:label "Gas5" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_15 ;
+	BAO:0002848 lncrna:DISEASE_15 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_15
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_15 .
+
+lncrna:PUB_16
+	dc:title "Downregulation of growth arrest-specific transcript 5 alleviates palmitic acid-induced myocardial inflammatory injury through the miR-26a/HMGB1/NF-KB axis" ;
+	dc:date 2018 ;
+	owl:sameAs PubMed:30365114 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_16
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000053332 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "HMGB1" ;
+	BCO:pathway "NF-KAPPA B SIGNALING PATHWAY" ;
+	SIO:000225 "Palmitic acid (PA) can induce gas5 expression and that the downregulation of gas5 alleviated pa-induced myocardial inflammatory injury through the miR-26a/HMGB1/NF-KB axis." ;
+	rdfs:label "Gas5" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_16 ;
+	BAO:0002848 lncrna:DISEASE_16 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_16
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_16 .
+
+lncrna:PUB_17
+	dc:title "RASSF1-AS1. an antisense lncRNA of RASSF1A. inhibits the translation of RASSF1A to exacerbate cardiac fibrosis in mice" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30571844 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_17
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000010067 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Rassf1-as1 inhibits the translation of rassf1a to exacerbate cardiac fibrosis in mice." ;
+	rdfs:label "Rassf1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_17 ;
+	BAO:0002848 lncrna:DISEASE_17 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_17
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_17 .
+
+lncrna:PUB_18
+	dc:title "SAIL: a new conserved anti-fibrotic lncRNA in the heart" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33675440 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_18
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:NA ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "SAIL inhibited the fibrotic process by directly binding with SAFB via 23 conserved nucleotide sequences. in turn blocked the access of SAFB to RNA pol II (RNA polymerase II) and reduced the transcription of fibrosis-related genes. Intriguingly.the human conserved fragment of SAIL (hSAIL) significantly suppressed the proliferation and collagen production of human cardiac fibroblasts." ;
+	rdfs:label "Sail" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_18 ;
+	BAO:0002848 lncrna:DISEASE_18 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_18
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_18 .
+
+lncrna:PUB_19
+	dc:title "LncRNA SOX2OT/Smad3 feedback loop promotes myocardial fibrosis in heart failure" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32959533 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_19
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000105265 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "Sox2ot/smad3 feedback loop promotes cardiac fibrosis in heart failure(HF)." ;
+	rdfs:label "Sox2ot" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_19 ;
+	BAO:0002848 lncrna:DISEASE_19 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_19
+	rdfs:label "heart_failure" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_19 .
+
+lncrna:PUB_20
+	dc:title "Ablation of interleukin-17 alleviated cardiac interstitial fibrosis and improved cardiac function via inhibiting long non-coding RNA-AK081284 in diabetic mice" ;
+	dc:date 2018 ;
+	owl:sameAs PubMed:29305939 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_20
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:NA ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "The levels of long noncoding RNA-AK081284 were increased in the cardiac fibroblasts (CFs) treated with high glucose or interleukin-17(IL-17). Knockout of IL-17 abrogated high glucose induced upregulation of AK081284. Overexpression of AK081284 in cultured CFs promoted the production of collagen and TGF-beta1. Both high glucose and IL-17 induced collagen and TGF-beta1 production were mitigated by the application of the siRNA for AK081284. In summary. deletion of IL-17 is able to mitigate myocardial fibrosis and improve cardiac function of diabetic mice. The IL-17/AK081284/TGFbeta1 signaling pathway mediates high glucose induced collagen production." ;
+	rdfs:label "AK081284" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_20 ;
+	BAO:0002848 lncrna:DISEASE_20 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_20
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_20 .
+
+lncrna:PUB_21
+	dc:title "LncRNA H19 ameliorates myocardial infarction-induced myocardial injury and maladaptive cardiac remodelling by regulating KDM3A" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:31755219 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_21
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "KDM3A" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "NA" ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_21 ;
+	BAO:0002848 lncrna:DISEASE_21 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_21
+	rdfs:label "myocardial_infarction" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_21 .
+
+lncrna:PUB_22
+	dc:title "Mechanism underlying increased cardiac extracellular matrix deposition in perinatal nicotine-exposed offspring" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32795172 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_22
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097767 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "MIR-29" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "NA" ;
+	rdfs:label "Miat" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_22 ;
+	BAO:0002848 lncrna:DISEASE_22 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_22
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_22 .
+
+lncrna:PUB_23
+	dc:title "Mechanism underlying increased cardiac extracellular matrix deposition in perinatal nicotine-exposed offspring" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32795172 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_23
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097767 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "MIR-29" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "NA" ;
+	rdfs:label "Miat" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_23 ;
+	BAO:0002848 lncrna:DISEASE_23 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_23
+	rdfs:label "ventricular_dysfunction" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_23 .
+
+lncrna:PUB_24
+	dc:title "Clinical significance of long intergenic noncoding RNA-p21 in colorectal cancer" ;
+	dc:date 2013 ;
+	owl:sameAs PubMed:24012455 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_24
+	SIO:001156 "dysregulation" ;
+	owl:sameAs ENSEMBL:100504267 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "One of them. lincRNA-p21. was regulated by p53 and contributed to apoptosis in mouse embryonic fibroblasts." ;
+	rdfs:label "Trp53cor1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_24 ;
+	BAO:0002848 lncrna:DISEASE_24 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_24
+	rdfs:label "colorectal_neoplasms" ;
+	CCF:tissue_provider_name "intestine" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_24 .
+
+lncrna:PUB_25
+	dc:title "A novel long non-coding RNA CYP4B1-PS1-001 regulates proliferation and fibrosis in diabetic nephropathy" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:26923441 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_25
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000081006 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "A novel long non-coding RNA CYP4B1 PS1-001 regulates proliferation and fibrosis in diabetic nephropathy." ;
+	rdfs:label "Cyp4b1-ps1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_25 ;
+	BAO:0002848 lncrna:DISEASE_25 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_25
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_25 .
+
+lncrna:PUB_26
+	dc:title "Long noncoding RNA-GAS5 retards renal fibrosis through repressing miR-21 activity" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32791063 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_26
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000053332 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Activation of lncrna-gas5 attenuates kidney fibrosis by modulating miR-21 activity." ;
+	rdfs:label "Gas5" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_26 ;
+	BAO:0002848 lncrna:DISEASE_26 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_26
+	rdfs:label "kidney_failure_chronic" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_26 .
+
+lncrna:PUB_27
+	dc:title "Long noncoding RNA NEAT1 accelerates the proliferation and fibrosis in diabetic nephropathy through activating Akt/mTOR signaling pathway" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30515796 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_27
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092274 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "PI3K-AKT SIGNALING PATHWAY" ;
+	SIO:000225 "Decrease of neat1 repressed the proliferation and fibrosis in diabetic nephropathies via activating the Akt/mTOR signaling pathway." ;
+	rdfs:label "Neat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_27 ;
+	BAO:0002848 lncrna:DISEASE_27 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_27
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_27 .
+
+lncrna:PUB_28
+	dc:title "Hypoxia-induced long non-coding RNA Malat1 is dispensable for renal ischemia/reperfusion-injury" ;
+	dc:date 2018 ;
+	owl:sameAs PubMed:29467431 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_28
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092341 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Hypoxia-induced long non-coding RNA malat1 (metastasis associated lung adenocarcinoma transcript 1) to be upregulated in renal i/r injury." ;
+	rdfs:label "Malat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_28 ;
+	BAO:0002848 lncrna:DISEASE_28 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_28
+	rdfs:label "acute_kidney_injury" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_28 .
+
+lncrna:PUB_29
+	dc:title "Long Noncoding RNA Arid2-IR Is a Novel Therapeutic Target for Renal Inflammation" ;
+	dc:date 2015 ;
+	owl:sameAs PubMed:25743111 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_29
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000033237 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "In vitro knockdown of Arid2-IR from tubular epithelial cells produced no effect on TGF-beta-induced Smad3 signaling and fibrosis but inhibited interleukin-1beta-stimulated NF-KB-dependent inflammatory response. In contrast. overexpression of Arid2-IR promoted interleukin-1beta-induced NF-KB signaling and inflammatory cytokine expression without alteration of TGF-beta-induced fibrotic response. Furthermore. treatment of obstructed kidney with Arid2-IR shRNA blunted NF-KB-driven renal inflammation without effect on TGF-beta/Smad3-mediated renal fibrosis." ;
+	rdfs:label "Arid2" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_29 ;
+	BAO:0002848 lncrna:DISEASE_29 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_29
+	rdfs:label "nephritis_interstitia" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_29 .
+
+lncrna:PUB_30
+	dc:title "LncRNA GAS5 exacerbates renal tubular epithelial fibrosis by acting as a competing endogenous RNA of miR-96-5p" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:31810140 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_30
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000053332 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "FN1" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Knockdown of lncrna gas5 leads to antifibrosis by competitively binding miR-96-5p. which inhibits the expression of FN1." ;
+	rdfs:label "Gas5" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_30 ;
+	BAO:0002848 lncrna:DISEASE_30 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_30
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_30 .
+
+lncrna:PUB_31
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_31
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097055 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "P50" ;
+	BCO:pathway "NF-KAPPA B SIGNALING PATHWAY" ;
+	SIO:000225 "Lincrna-gm4419 may participate in the inflammation. fibrosis and proliferation in mesangial cells under high-glucose condition through NF-KB/Nlrp3 inflammasome signaling pathway." ;
+	rdfs:label "Gm4419" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_31 ;
+	BAO:0002848 lncrna:DISEASE_31 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_31
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_31 .
+
+lncrna:PUB_32
+	dc:title "Long non-coding RNA Hottip modulates high-glucose-induced inflammation and ECM accumulation through miR-455-3p/WNT2B in mus musculus mesangial cells" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31934070 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_32
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000055408 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "WNT SIGNALING PATHWAY" ;
+	SIO:000225 "Lncrna hottip/miR-455-3p/wnt2b axis plays an important role in cell proliferation. inflammation. and extracellular matrix (ecm) accumulation in diabetic nephropathy." ;
+	rdfs:label "Hottip" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_32 ;
+	BAO:0002848 lncrna:DISEASE_32 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_32
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_32 .
+
+lncrna:PUB_33
+	dc:title "LncRNA TUG1 ameliorates diabetic nephropathy by inhibiting miR-21 to promote TIMP3-expression" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31933879 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_33
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000056579 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "TIMP3" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Lncrna tug1 inhibited high glucose-stimulated NRK-52e cell fibrosis and renal fibrosis in diabetic nephropathies mice." ;
+	rdfs:label "Tug1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_33 ;
+	BAO:0002848 lncrna:DISEASE_33 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_33
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_33 .
+
+lncrna:PUB_34
+	dc:title "Exosome-derived long non-coding RNA ZFAS1 controls cardiac fibrosis in chronic kidney disease" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33640882 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_34
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000074578 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "WNT SIGNALING PATHWAY" ;
+	SIO:000225 "LncRNA ZFAS1 from HCM could promote cardiac fibrosis through WNT/beta-catenin signal via exosome pathways." ;
+	rdfs:label "Zfas1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_34 ;
+	BAO:0002848 lncrna:DISEASE_34 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_34
+	rdfs:label "kidney_failure_chronic" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_34 .
+
+lncrna:PUB_35
+	dc:title "Long non-coding RNA ENSMUST00000147869 protects mesangial cells from proliferation and fibrosis induced by diabetic nephropathy" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27083175 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_35
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000020023 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Long non-coding RNA ENSMUST00000147869 protects mesangial cells from proliferation and fibrosis induced by diabetic nephropathy." ;
+	rdfs:label "Tmcc3" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_35 ;
+	BAO:0002848 lncrna:DISEASE_35 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_35
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_35 .
+
+lncrna:PUB_36
+	dc:title "LncRNA MALAT1 facilities high glucose induced endothelial to mesenchymal transition and fibrosis via targeting miR-145/ZEB2 axis" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31081103 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_36
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092341 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "ZEB2" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Malat1 functions as a sponge RNA for miR-145 to derepress the expression of target gene zeb3. thereby inducing epithelial-mesenchymal transition (EMT) and fibrosis." ;
+	rdfs:label "Malat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_36 ;
+	BAO:0002848 lncrna:DISEASE_36 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_36
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_36 .
+
+lncrna:PUB_37
+	dc:title "LincRNA 1700020I14Rik alleviates cell proliferation and fibrosis in diabetic nephropathy via miR-34a-5p/Sirt1/HIF-1alpha signaling" ;
+	dc:date 2018 ;
+	owl:sameAs PubMed:29700282 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_37
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000085438 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "HIF-1 SIGNALING PATHWAY" ;
+	SIO:000225 "Overexpression of 1700020i14rik inhibited cell proliferation and expressions of renal fibrosis markers through miR-34a-5p/sirt1/hif-1 alfa pathway in mouse mesangial cells under high glucose condition." ;
+	rdfs:label "Oip5os1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_37 ;
+	BAO:0002848 lncrna:DISEASE_37 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_37
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_37 .
+
+lncrna:PUB_38
+	dc:title "Silencing of long noncoding RNA XIST protects against renal interstitial fibrosis in diabetic nephropathy via microRNA-93-5p-mediated inhibition of CDKN1A" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31545928 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_38
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000086503 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "CDKN1A" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Silenced xist inducing miR-93-5p-dependent cdkn1a inhibition was beneficial for preventing renal interstitial fibrosis in diabetic nephropathies." ;
+	rdfs:label "Xist" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_38 ;
+	BAO:0002848 lncrna:DISEASE_38 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_38
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_38 .
+
+lncrna:PUB_39
+	dc:title "LncRNA HOTAIR promotes renal interstitial fibrosis by regulating Notch1 pathway via the modulation of miR-124" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:29717517 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_39
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000086903 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NOTCH1" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Silencing lncrna hotair can up-regulate miR-124 to block notch2 pathway. and thereby alleviating epithelial-mesenchymal transition and renal interstitial fibrosis." ;
+	rdfs:label "Hotair" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_39 ;
+	BAO:0002848 lncrna:DISEASE_39 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_39
+	rdfs:label "nephritis_interstitia" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_39 .
+
+lncrna:PUB_40
+	dc:title "Long noncoding RNA NEAT1 is involved in the protective effect of Klotho on renal tubular epithelial cells in diabetic kidney disease through the ERK1/2 signaling pathway" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32054986 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_40
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092274 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "MAPK SIGNALING PATHWAY" ;
+	SIO:000225 "Silencing neat1 can reverse the activation of epithelial-mesenchymal transition and fibrosis caused by klotho silencing in a manner dependent on the erk1/3 signaling pathway." ;
+	rdfs:label "Neat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_40 ;
+	BAO:0002848 lncrna:DISEASE_40 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_40
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_40 .
+
+lncrna:PUB_41
+	dc:title "Paeonol reverses promoting effect of the HOTAIR/miR-124/Notch1 axis on renal interstitial fibrosis in a rat model" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30714138 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_41
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000086903 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NOTCH1" ;
+	BCO:pathway "NOTCH SIGNALING PATHWAY" ;
+	SIO:000225 "The contributory effect of lncrna hotair on renal interstitial fibrosis by activating the notch1/jagged1 signaling pathway via inhibition of miR-124. whereas administration of PAE can alleviate the effects of hotair on renal interstitial fibrosis." ;
+	rdfs:label "Hotair" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_41 ;
+	BAO:0002848 lncrna:DISEASE_41 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_41
+	rdfs:label "nephritis_interstitia" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_41 .
+
+lncrna:PUB_42
+	dc:title "Silencing of the lncRNA TUG1 attenuates the epithelial-mesenchymal transition of renal tubular epithelial cells by sponging miR-141-3p via regulating beta-catenin" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:33135476 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_42
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000056579 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "Tug1 promotes epithelial-mesenchymal transition in TGF-beta-induced human renal proximal tubular epithelial cells via upregulation of beta-catenin levels by sponging miR-141-3p." ;
+	rdfs:label "Tug1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_42 ;
+	BAO:0002848 lncrna:DISEASE_42 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_42
+	rdfs:label "nephritis_interstitia" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_42 .
+
+lncrna:PUB_43
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_43
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000096956 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "Snhg18" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_43 ;
+	BAO:0002848 lncrna:DISEASE_43 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_43
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_43 .
+
+lncrna:PUB_44
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_44
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097383 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "1500026H17Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_44 ;
+	BAO:0002848 lncrna:DISEASE_44 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_44
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_44 .
+
+lncrna:PUB_45
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_45
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000087259 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "2610035D17Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_45 ;
+	BAO:0002848 lncrna:DISEASE_45 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_45
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_45 .
+
+lncrna:PUB_46
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_46
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000096971 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "4930556M19Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_46 ;
+	BAO:0002848 lncrna:DISEASE_46 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_46
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_46 .
+
+lncrna:PUB_47
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_47
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097207 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "6030443J06Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_47 ;
+	BAO:0002848 lncrna:DISEASE_47 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_47
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_47 .
+
+lncrna:PUB_48
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_48
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097930 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "C330002G04Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_48 ;
+	BAO:0002848 lncrna:DISEASE_48 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_48
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_48 .
+
+lncrna:PUB_49
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_49
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000031294 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "D630029K05Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_49 ;
+	BAO:0002848 lncrna:DISEASE_49 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_49
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_49 .
+
+lncrna:PUB_50
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_50
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000098234 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "Snhg6" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_50 ;
+	BAO:0002848 lncrna:DISEASE_50 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_50
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_50 .
+
+lncrna:PUB_51
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_51
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000085438 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "1700020I14Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_51 ;
+	BAO:0002848 lncrna:DISEASE_51 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_51
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_51 .
+
+lncrna:PUB_52
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_52
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000087377 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "AV099323" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_52 ;
+	BAO:0002848 lncrna:DISEASE_52 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_52
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_52 .
+
+lncrna:PUB_53
+	dc:title "LincRNA-Gm4419 knockdown ameliorates NF-KB/NLRP3 inflammasome-mediated inflammation in diabetic nephropathy" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28151474 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_53
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097574 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Twelve lncRNAs displayed the same expressional tendencies in both renal tissues and mesangial cells." ;
+	rdfs:label "C920006O11Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_53 ;
+	BAO:0002848 lncrna:DISEASE_53 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_53
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_53 .
+
+lncrna:PUB_54
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_54
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097503 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 10D ." ;
+	rdfs:label "3110045C21Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_54 ;
+	BAO:0002848 lncrna:DISEASE_54 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_54
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_54 .
+
+lncrna:PUB_55
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_55
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000085582 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 11D ." ;
+	rdfs:label "3110099E03Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_55 ;
+	BAO:0002848 lncrna:DISEASE_55 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_55
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_55 .
+
+lncrna:PUB_56
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_56
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000096965 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 12D ." ;
+	rdfs:label "3300005D01Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_56 ;
+	BAO:0002848 lncrna:DISEASE_56 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_56
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_56 .
+
+lncrna:PUB_57
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_57
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000085287 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 13D ." ;
+	rdfs:label "4833418N02Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_57 ;
+	BAO:0002848 lncrna:DISEASE_57 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_57
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_57 .
+
+lncrna:PUB_58
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_58
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000085683 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 14D ." ;
+	rdfs:label "9130409J20Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_58 ;
+	BAO:0002848 lncrna:DISEASE_58 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_58
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_58 .
+
+lncrna:PUB_59
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_59
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097194 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 15D ." ;
+	rdfs:label "9330175E14Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_59 ;
+	BAO:0002848 lncrna:DISEASE_59 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_59
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_59 .
+
+lncrna:PUB_60
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_60
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097924 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 16D ." ;
+	rdfs:label "A730020E08Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_60 ;
+	BAO:0002848 lncrna:DISEASE_60 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_60
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_60 .
+
+lncrna:PUB_61
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_61
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000056145 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 17D ." ;
+	rdfs:label "AI504432" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_61 ;
+	BAO:0002848 lncrna:DISEASE_61 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_61
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_61 .
+
+lncrna:PUB_62
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_62
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000087107 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 18D ." ;
+	rdfs:label "AI662270" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_62 ;
+	BAO:0002848 lncrna:DISEASE_62 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_62
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_62 .
+
+lncrna:PUB_63
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_63
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000085772 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 19D ." ;
+	rdfs:label "D630024D03Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_63 ;
+	BAO:0002848 lncrna:DISEASE_63 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_63
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_63 .
+
+lncrna:PUB_64
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_64
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000031294 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 20D ." ;
+	rdfs:label "D630029K05Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_64 ;
+	BAO:0002848 lncrna:DISEASE_64 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_64
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_64 .
+
+lncrna:PUB_65
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_65
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:100504486 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 21D ." ;
+	rdfs:label "Gdap10" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_65 ;
+	BAO:0002848 lncrna:DISEASE_65 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_65
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_65 .
+
+lncrna:PUB_66
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_66
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000059659 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 22D ." ;
+	rdfs:label "Gm10069" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_66 ;
+	BAO:0002848 lncrna:DISEASE_66 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_66
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_66 .
+
+lncrna:PUB_67
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_67
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000075025 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 23D ." ;
+	rdfs:label "Gm10804" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_67 ;
+	BAO:0002848 lncrna:DISEASE_67 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_67
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_67 .
+
+lncrna:PUB_68
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_68
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000087404 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 24D ." ;
+	rdfs:label "Gm11752" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_68 ;
+	BAO:0002848 lncrna:DISEASE_68 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_68
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_68 .
+
+lncrna:PUB_69
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_69
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000084854 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 25D ." ;
+	rdfs:label "Gm12678" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_69 ;
+	BAO:0002848 lncrna:DISEASE_69 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_69
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_69 .
+
+lncrna:PUB_70
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_70
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000085017 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 26D ." ;
+	rdfs:label "Gm13412" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_70 ;
+	BAO:0002848 lncrna:DISEASE_70 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_70
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_70 .
+
+lncrna:PUB_71
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_71
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097804 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 27D ." ;
+	rdfs:label "Gm16685" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_71 ;
+	BAO:0002848 lncrna:DISEASE_71 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_71
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_71 .
+
+lncrna:PUB_72
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_72
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000054618 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 28D ." ;
+	rdfs:label "Gm9951" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_72 ;
+	BAO:0002848 lncrna:DISEASE_72 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_72
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_72 .
+
+lncrna:PUB_73
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_73
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092341 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 29D ." ;
+	rdfs:label "Malat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_73 ;
+	BAO:0002848 lncrna:DISEASE_73 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_73
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_73 .
+
+lncrna:PUB_74
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_74
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092274 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 30D ." ;
+	rdfs:label "Neat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_74 ;
+	BAO:0002848 lncrna:DISEASE_74 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_74
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_74 .
+
+lncrna:PUB_75
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_75
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000098234 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 34D ." ;
+	rdfs:label "Snhg6" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_75 ;
+	BAO:0002848 lncrna:DISEASE_75 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_75
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_75 .
+
+lncrna:PUB_76
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_76
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097101 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 8D ." ;
+	rdfs:label "1810034E14Rik" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_76 ;
+	BAO:0002848 lncrna:DISEASE_76 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_76
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_76 .
+
+lncrna:PUB_77
+	dc:title "Whole-transcriptome analysis of UUO mouse model of renal fibrosis reveals new molecular players in kidney diseases" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27189340 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_77
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000087590 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We identified a long list of differentially expressed lncRNA genes in a statistical significant manner (P<0.05).In particular. we identified 62 lncRNAs that were differentially expressed in SO vs 2D. 110 lncRNAs in SO vs 8D and 24 in 2D vs 9D ." ;
+	rdfs:label "Epb41l4aos" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_77 ;
+	BAO:0002848 lncrna:DISEASE_77 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_77
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_77 .
+
+lncrna:PUB_78
+	dc:title "Long Non-coding RNAs Rian and Miat Mediate Myofibroblast Formation in Kidney Fibrosis" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30914951 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_78
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097767 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "NA" ;
+	rdfs:label "Miat" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_78 ;
+	BAO:0002848 lncrna:DISEASE_78 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_78
+	rdfs:label "kidney_diseases" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_78 .
+
+lncrna:PUB_79
+	dc:title "Long Non-coding RNAs Rian and Miat Mediate Myofibroblast Formation in Kidney Fibrosis" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30914951 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_79
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097451 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "NA" ;
+	rdfs:label "Meg8" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_79 ;
+	BAO:0002848 lncrna:DISEASE_79 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_79
+	rdfs:label "kidney_diseases" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_79 .
+
+lncrna:PUB_80
+	dc:title "Long noncoding RNA NEAT1 sponges miR-130 to modulate renal fibrosis by regulation of collagen type I" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32475133 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_80
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092274 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "NA" ;
+	rdfs:label "Neat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_80 ;
+	BAO:0002848 lncrna:DISEASE_80 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_80
+	rdfs:label "kidney_diseases" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_80 .
+
+lncrna:PUB_81
+	dc:title "Cholangiocyte-Derived Exosomal Long Noncoding RNA H19 Promotes Hepatic Stellate Cell Activation and Cholestatic Liver Fibrosis" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30985008 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_81
+	SIO:001156 "dysregulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "LNCRNA H19" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Cholangiocyte-derived exosomal h19 plays a critical role in the progression of cholestatic liver fibrosis by promoting hsc differentiation and activation and represents a potential diagnostic biomarker and therapeutic target for cholangiopathies." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_81 ;
+	BAO:0002848 lncrna:DISEASE_81 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_81
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_81 .
+
+lncrna:PUB_82
+	dc:title "The liver-enriched lnc-LFAR1 promotes liver fibrosis by activating TGFbeta and Notch pathways" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28747678 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_82
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:NA ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "LNC-LFAR1" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY, NOTCH SIGNALING PATHWAY" ;
+	SIO:000225 "Demonstrate that a liver-enriched lncrna. lnc-lfar1. promotes liver fibrosis and hsc activation by activating tgfbeta and notch signaling." ;
+	rdfs:label "LFAR1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_82 ;
+	BAO:0002848 lncrna:DISEASE_82 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_82
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_82 .
+
+lncrna:PUB_83
+	dc:title "Transcriptomic and genomic analysis of human hepatocellular carcinomas and hepatoblastomas" ;
+	dc:date 2006 ;
+	owl:sameAs PubMed:17006932 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_83
+	SIO:001156 "dysregulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092341 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "HCC and HPBL have clearly different patterns of gene expression. with genes IGF2. Fibronectin. DLK1. TGFb1. MALAT1 and MIG6 being over-expressed in HPBL versus HCC" ;
+	rdfs:label "Malat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_83 ;
+	BAO:0002848 lncrna:DISEASE_83 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_83
+	rdfs:label "carcinoma_hepatocellular" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_83 .
+
+lncrna:PUB_84
+	dc:title "MeCP2 silencing of LncRNA H19 controls hepatic stellate cell proliferation by targeting IGF1R" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27350269 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_84
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "Histone deacetylase inhibition suppresses the transforming growth factor beta1-induced epithelial-to-mesenchymal transition in hepatocytes." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_84 ;
+	BAO:0002848 lncrna:DISEASE_84 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_84
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_84 .
+
+lncrna:PUB_85
+	dc:title "LncRNA-ATB/microRNA-200a/beta-catenin regulatory axis involved in the progression of HCV-related hepatic fibrosis" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28302418 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_85
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:114004396 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "LNCRNA-ATB" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Lncrna-atb,Mir-200a,beta-Catenin regulatory axis likely contributed to the development of liver fibrosis in hcv patients. Knockdown of lncrna-atb might be a novel therapeutic target for hcv-related liver fibrosis." ;
+	rdfs:label "LNCRNA-ATB" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_85 ;
+	BAO:0002848 lncrna:DISEASE_85 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_85
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_85 .
+
+lncrna:PUB_86
+	dc:title "NEAT1 accelerates the progression of liver fibrosis via regulation of microRNA-122 and Kruppel-like factor 6" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28864835 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_86
+	SIO:001156 "dysregulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092274 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Neat1 was significantly increased in ccl4-induced mice and activated hscs. Loss of neat1 suppressed liver fibrosis in vivo and in vitro. Klf6 and mir-122 were required for the effects of neat1 on hsc activation. Neat1 contributes to hsc activation via competitively binding mir-122. We disclose a novel neat1-mir-122-klf6 signaling cascade." ;
+	rdfs:label "Neat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_86 ;
+	BAO:0002848 lncrna:DISEASE_86 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_86
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_86 .
+
+lncrna:PUB_87
+	dc:title "HIF-1alfa-upregulated lncRNA-H19 regulates lipid droplet metabolism through the AMPKalfa pathway in hepatic stellate cells" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32445757 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_87
+	SIO:001156 "dysregulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "LNCRNA-H19" ;
+	BCO:pathway "AMPKA" ;
+	SIO:000225 "Our results highlighted the role of lncrna-h19 in the metabolism of lipid droplets in hscs. and revealed a new molecular target for alleviating liver fibrosis." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_87 ;
+	BAO:0002848 lncrna:DISEASE_87 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_87
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_87 .
+
+lncrna:PUB_88
+	dc:title "SCARNA10. a nuclear-retained long non-coding RNA. promotes liver fibrosis and serves as a potential biomarker" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31281502 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_88
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000089617 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "SCARNA10" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Our study identified a crucial role of scarna10 in liver fibrosis. providing a proof of this molecule as a potential diagnostic marker and a possible therapeutic target against liver fibrosis." ;
+	rdfs:label "Scarna10" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_88 ;
+	BAO:0002848 lncrna:DISEASE_88 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_88
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_88 .
+
+lncrna:PUB_89
+	dc:title "LncRNA Mical2/miR-203a-3p sponge participates in epithelial-mesenchymal transition by targeting p66Shc in liver fibrosis" ;
+	dc:date 2020 ;
+	owl:sameAs PubMed:32659284 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_89
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000038244 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "P66SHC" ;
+	BCO:pathway "MICAL2, MIR-230-3P, P66SHC" ;
+	SIO:000225 "Our study reveals that p66shc is critical for liver fibrosis and that mical2. journal pre-proof journal pre-proof 4 mir-203a-3p and p66shc compose a novel regulatory pathway in liver fibrosis." ;
+	rdfs:label "Mical2" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_89 ;
+	BAO:0002848 lncrna:DISEASE_89 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_89
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_89 .
+
+lncrna:PUB_90
+	dc:title "Long non-coding RNA PVT1 activates hepatic stellate cells through competitively binding microRNA-152" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27588491 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_90
+	SIO:001156 "patched2 demethylation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097039 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "HEDGEHOG SIGNALING PATHWAY" ;
+	SIO:000225 "Pvt1 epigenetically down-regulates ptch1 expression via competitively binding mir-152. contributing to emt process in liver fibrosis." ;
+	rdfs:label "Pvt1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_90 ;
+	BAO:0002848 lncrna:DISEASE_90 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_90
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_90 .
+
+lncrna:PUB_91
+	dc:title "Diagnostic value of LncRNA-MEG3 as a serum biomarker in patients with hepatitis B complicated with liver fibrosis" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31173310 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_91
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000021268 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Serum level of lncrna-meg3 is lowly expressed in chb patients. which is negatively correlated to the liver fibrotic degree. Lncrna-meg3 may serve as a diagnostic biomarker for chb." ;
+	rdfs:label "Meg3" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_91 ;
+	BAO:0002848 lncrna:DISEASE_91 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_91
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_91 .
+
+lncrna:PUB_92
+	dc:title "Fibrogenic Activity of MECP2 Is Regulated by Phosphorylation in Hepatic Stellate Cells" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31352003 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_92
+	SIO:001156 "phosphorylation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000031393 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Strategies to inhibit mecp2 phosphorylation at s80 might be developed for treatment of liver fibrosis." ;
+	rdfs:label "Mecp2" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_92 ;
+	BAO:0002848 lncrna:DISEASE_92 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_92
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_92 .
+
+lncrna:PUB_93
+	dc:title "H19 promotes cholestatic liver fibrosis by preventing ZEB1-mediated inhibition of EpCAM" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28407375 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_93
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "The activation of hepatic h19rna promoted cholestatic liver fibrosis in mice through the zeb1,Epcam signaling pathway." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_93 ;
+	BAO:0002848 lncrna:DISEASE_93 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_93
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_93 .
+
+lncrna:PUB_94
+	dc:title "TGF-beta-induced hepatocyte lincRNA-p21 contributes to liver fibrosis in mice" ;
+	dc:date 2017 ;
+	owl:sameAs PubMed:28592847 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_94
+	SIO:001156 "dysregulation" ;
+	owl:sameAs ENSEMBL:100504267 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "LINCRNA-P21" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "The pleiotropic roles of hepatocyte lincrna-p21 suggest that it may represent an unknown paradigm in liver fibrosis and serve as a potential target for therapy." ;
+	rdfs:label "Trp53cor1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_94 ;
+	BAO:0002848 lncrna:DISEASE_94 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_94
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_94 .
+
+lncrna:PUB_95
+	dc:title "Inhibitory effects of long noncoding RNA MEG3 on hepatic stellate cells activation and liver fibrogenesis" ;
+	dc:date 2014 ;
+	owl:sameAs PubMed:25201080 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_95
+	SIO:001156 "hypermethylation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000021268 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "MEG3" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "These findings suggested that meg3 may play an important role in stellate cell activation and liver fibrosis progression and act as a novel potential therapeutic target for liver fibrosis." ;
+	rdfs:label "Meg3" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_95 ;
+	BAO:0002848 lncrna:DISEASE_95 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_95
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_95 .
+
+lncrna:PUB_96
+	dc:title "LncRNA HULC affects the differentiation of Treg in HBV-related liver cirrhosis" ;
+	dc:date 2015 ;
+	owl:sameAs PubMed:25952928 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_96
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:728655 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We confirmed the effects of hulc on tregs differentiation in hbv-related liver cirrhosis. In addition. it was proved that hulc regulates the function of tregs through down-regulated the level of p18 directly." ;
+	rdfs:label "HULC" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_96 ;
+	BAO:0002848 lncrna:DISEASE_96 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_96
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_96 .
+
+lncrna:PUB_97
+	dc:title "A lncRNA Gpr137b-ps/miR-200a-3p/CXCL14 axis modulates hepatic stellate cell (HSC) activation" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33069761 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_97
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097715 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "LNCRNA GPR137B-PS AND CXCL14" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We demonstrated a lncrna gpr137b-ps,Mir-200a-3p,Cxcl14 axis that modulates hsc activation and might exert an effect on the pathogenesis of liver fibrosis." ;
+	rdfs:label "Gpr137b-ps" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_97 ;
+	BAO:0002848 lncrna:DISEASE_97 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_97
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_97 .
+
+lncrna:PUB_98
+	dc:title "Long noncoding RNA HOTTIP mediates SRF expression through sponging miR-150 in hepatic stellate cells" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:30548190 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_98
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000055408 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "SRF" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We provide a novel hottip-mir-150-srf signalling cascade in liver fibrosis." ;
+	rdfs:label "Hottip" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_98 ;
+	BAO:0002848 lncrna:DISEASE_98 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_98
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_98 .
+
+lncrna:PUB_99
+	dc:title "Long noncoding RNA XIST enhances ethanol-induced hepatic stellate cells autophagy and activation via miR-29b/HMGB1 axis" ;
+	dc:date 2019 ;
+	owl:sameAs PubMed:31418997 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_99
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000086503 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Xist enhances ethanol-induced hscs autophagy and activation via mir-29b,Hmgb1 axis." ;
+	rdfs:label "Xist" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_99 ;
+	BAO:0002848 lncrna:DISEASE_99 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_99
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_99 .
+
+lncrna:PUB_100
+	dc:title "Epigenetic regulation of miR-17~92 contributes to the pathogenesis of pulmonary fibrosis" ;
+	dc:date 2013 ;
+	owl:sameAs PubMed:23306545 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_100
+	SIO:001156 "dysregulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000089726 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Compared with control samples. miR-17~92 expression was reduced in lung biopsies and lung fibroblasts from patients with IPF. whereas DNMT-1 expression and methylation of the miR-17~92 promoter was increased. Several miRNAs from the miR-17~92 cluster targeted DNMT-1 expression resulting in a negative feedback loop. Similarly. miR-17~92 expression was reduced in the lungs of bleomycin-treated mice. Treatment with 5'-aza-2'-deoxycytidine in a murine bleomycin-induced pulmonary fibrosis model reduced fibrotic gene and DNMT-1 expression. enhanced miR-17~92 cluster expression. and attenuated pulmonary fibrosis." ;
+	rdfs:label "Mir17hg" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_100 ;
+	BAO:0002848 lncrna:DISEASE_100 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_100
+	rdfs:label "idiopathic_pulmonary_fibrosis" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_100 .
+
+lncrna:PUB_101
+	dc:title "The effect of H19-miR-29b interaction on bleomycin-induced mouse model of idiopathic pulmonary fibrosis" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27613097 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_101
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "Col1a1" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "H19 play a promotive role in bleomycin-induced epithelial-mesenchymal transition of alveolar epithelial cell through miR-29b regulation. H19 expression was positively correlated with COL1A1 and Acta2 expression, H19 knockdown inhibited COL1A1 and Acta2 expression. Moreover. H19 interacted with miR-29b through directly binding to the 3'UTR, MiR-29b inhibited COL1A1 expression by directly binding to the 3'UTR. In conclusion. we revealed the promotive effect of H19 on BLM-induced IPF. and demonstrated the mechanism by which H19/miR-29b interaction exerts its effect on regulating pulmonary fibrosis." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_101 ;
+	BAO:0002848 lncrna:DISEASE_101 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_101
+	rdfs:label "idiopathic_pulmonary_fibrosis" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_101 .
+
+lncrna:PUB_102
+	dc:title "Loss of MicroRNA-17 92 in Smooth Muscle Cells Attenuates Experimental Pulmonary Hypertension via Induction of PDZ and LIM Domain 5" ;
+	dc:date 2015 ;
+	owl:sameAs PubMed:25647182 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_102
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000089726 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "Pdlim5?" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Human PASMC (HPASMC) from patients with PAH expressed decreased levels of the miR-17 92 cluster. TGF-B. and SMC markers.  Knockdown of Smad3 but not Smad2 prevented miR-17 92-induced expression of SMC markers. SMC-specific knockout of miR-17 92 attenuated hypoxia-induced pulmonary hypertension (PH) in mice. whereas reconstitution of miR-17 92 restored hypoxia-induced PH in these mice. PDLIM5 is a direct target of miR-17/20a. and hypertensive HPASMC and mouse PASMC expressed elevated PDLIM5 levels. Suppression of PDLIM5 increased expression of SMC markers and enhanced TGF-B/Smad2/3 activity in vitro and enhanced hypoxia-induced PH in vivo. whereas overexpression of PDLIM5 attenuated hypoxia-induced PH." ;
+	rdfs:label "Mir17hg" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_102 ;
+	BAO:0002848 lncrna:DISEASE_102 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_102
+	rdfs:label "pulmonary_hypertension" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_102 .
+
+lncrna:PUB_103
+	dc:title "lncRNA PFAL promotes lung fibrosis through CTGF by competitively binding miR-18a" ;
+	dc:date 2018 ;
+	owl:sameAs PubMed:29683732 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_103
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:URS00009B9A54_10090 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "miR-18a" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "In the present study. we identified that lncRNA NONMMUT021928. designated as pulmonary fibrosis-associated lncRNA (PFAL). was up-regulated in the lungs of mice with experimental lung fibrosis. and in TGF-beta1-induced fibrotic lung fibroblasts. Further study showed that overexpression of PFAL promoted cell proliferation. migration. and fibroblast-myofibroblast transition. Overexpression further resulted in extracellular matrix deposition and fibrogenesis in lung fibroblasts through regulation of microRNA-18a (miR-18a). Importantly. knockdown of PFAL alleviated lung fibrosis both in vitro and in vivo. Mechanistically. our study showed that PFAL promoted lung-fibroblast activation and fibrogenesis by acting as a competing endogenous RNA for miR-18a: forced expression of PFAL inhibited the expression and activity of miR-18a. whereas silencing of PFAL had the opposite effect. Furthermore. we found that miR-18a was decreased during lung fibrosis in vitro and in vivo. as well as in patients with IPF. Moreover. knockdown of miR-18a led to fibrogenesis in lung fibroblasts. whereas enhanced expression of miR-18a attenuated TGF-beta1-induced lung fibrosis by directly targeting the regulation of connecting tissue growth factor." ;
+	rdfs:label "NONMMUT021928.2" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_103 ;
+	BAO:0002848 lncrna:DISEASE_103 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_103
+	rdfs:label "pulmonary_fibrosis" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_103 .
+
+lncrna:PUB_104
+	dc:title "MiR-489 inhibits silica-induced pulmonary fibrosis by targeting MyD88 and Smad3 and is negatively regulated by lncRNA CHRF" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27506999 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_104
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:105463121 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "Myd88, Smad3" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Levels were reduced in both macrophages that were exposed to silica and fibroblasts that were exposed to TGF-B1. MiR-489 inhibited silica-induced pulmonary fibrosis primarily by repressing its target genes MyD88 and Smad3. Moreover. the up-regulated lncRNA cardiac hypertrophy-related factor (CHRF) reversed the inhibitory effect of miR-489 on MyD88 and Smad3 and then triggered the inflammation and fibrotic signaling pathways." ;
+	rdfs:label "Chrf" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_104 ;
+	BAO:0002848 lncrna:DISEASE_104 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_104
+	rdfs:label "silicosis" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_104 .
+
+lncrna:PUB_105
+	dc:title "Lipopolysaccharide promotes pulmonary fibrosis in acute respiratory distress syndrome (ARDS) via lincRNA-p21 induced inhibition of Thy-1 expression" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27392907 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_105
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:100504267 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "LincRNA-p21 expression was time-dependently increased and Thy-1 expression was time-dependently reduced in a mouse model of ARDS and in LPS-treated lung fibroblasts. LincRNA-p21 overexpression dramatically inhibited acetylation of H3 and H4 at the Thy-1 promoter and Thy-1 expression levels in HLF1 cells.LincRNA-p21 interference rescued LPS-induced increase of lung and BAL collagen contents. LincRNA-p21 could lead to pulmonary fibrosis in ARDS by inhibition of the expression of Thy-1." ;
+	rdfs:label "Trp53cor1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_105 ;
+	BAO:0002848 lncrna:DISEASE_105 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_105
+	rdfs:label "respiratory_distress_syndrome_acute" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_105 .
+
+lncrna:PUB_106
+	dc:title "Lipopolysaccharide promotes pulmonary fibrosis in acute respiratory distress syndrome (ARDS) via lincRNA-p21 induced inhibition of Thy-1 expression" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27392907 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_106
+	SIO:001156 "histone deacetylation" ;
+	owl:sameAs ENSEMBL:100504267 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "LincRNA-p21 expression was time-dependently increased and Thy-1 expression was time-dependently reduced in a mouse model of ARDS and in LPS-treated lung fibroblasts. LincRNA-p21 overexpression dramatically inhibited acetylation of H3 and H4 at the Thy-1 promoter and Thy-1 expression levels in HLF1 cells.LincRNA-p21 interference rescued LPS-induced increase of lung and BAL collagen contents. LincRNA-p21 could lead to pulmonary fibrosis in ARDS by inhibition of the expression of Thy-1." ;
+	rdfs:label "Trp53cor1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_106 ;
+	BAO:0002848 lncrna:DISEASE_106 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_106
+	rdfs:label "respiratory_distress_syndrome_acute" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_106 .
+
+lncrna:PUB_107
+	dc:title "The effect of H19-miR-29b interaction on bleomycin-induced mouse model of idiopathic pulmonary fibrosis" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:27613097 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_107
+	SIO:001156 "interact with miRNA" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "Lsp1, Tnnt3, Mrpl23, Igf2, AC013548.1" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Moreover. H19 interacted with miR-29b through directly binding to the 3'UTR, miR-29b inhibited COL1A1 expression by directly binding to the 4'UTR." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_107 ;
+	BAO:0002848 lncrna:DISEASE_107 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_107
+	rdfs:label "idiopathic_pulmonary_fibrosis" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_107 .
+
+lncrna:PUB_108
+	dc:title "Integrated long non-coding RNA analyses identify novel regulators of epithelial-mesenchymal transition in the mouse model of pulmonary fibrosis" ;
+	dc:date 2016 ;
+	owl:sameAs PubMed:26824344 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_108
+	SIO:001156 "dysregulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000085696 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Overexpression of uc.77 or 2700086A05Rik in human lung epithelial cells induced EMT as demonstrated by changes in gene and protein expression of various EMT markers and cell morphology." ;
+	rdfs:label "Hoxaas3" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_108 ;
+	BAO:0002848 lncrna:DISEASE_108 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_108
+	rdfs:label "idiopathic_pulmonary_fibrosis" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_108 .
+
+lncrna:PUB_109
+	dc:title "A lncRNA Gpr137b-ps/miR-200a-3p/CXCL14 axis modulates hepatic stellate cell (HSC) activation" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33069761 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_109
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097715 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "LNCRNA GPR137B-PS AND CXCL14" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "We demonstrated a lncrna gpr137b-ps,Mir-200a-3p,Cxcl14 axis that modulates hsc activation and might exert an effect on the pathogenesis of liver fibrosis." ;
+	rdfs:label "Gpr137b-ps" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_109 ;
+	BAO:0002848 lncrna:DISEASE_109 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_109
+	rdfs:label "liver_cirrhosis" ;
+	CCF:tissue_provider_name "liver" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_109 .
+
+lncrna:PUB_110
+	dc:title "SAIL: a new conserved anti-fibrotic lncRNA in the heart" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33675440 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_110
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:NA ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "TGF-BETA SIGNALING PATHWAY" ;
+	SIO:000225 "SAIL inhibited the fibrotic process by directly binding with SAFB via 23 conserved nucleotide sequences. in turn blocked the access of SAFB to RNA pol II (RNA polymerase II) and reduced the transcription of fibrosis-related genes. Intriguingly.the human conserved fragment of SAIL (hSAIL) significantly suppressed the proliferation and collagen production of human cardiac fibroblasts." ;
+	rdfs:label "Sail" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_110 ;
+	BAO:0002848 lncrna:DISEASE_110 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_110
+	rdfs:label "endomyocardial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_110 .
+
+lncrna:PUB_111
+	dc:title "Exosome-derived long non-coding RNA ZFAS1 controls cardiac fibrosis in chronic kidney disease" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33640882 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_111
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000074578 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "WNT SIGNALING PATHWAY" ;
+	SIO:000225 "LncRNA ZFAS1 from HCM could promote cardiac fibrosis through WNT/beta-catenin signal via exosome pathways." ;
+	rdfs:label "Zfas1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_111 ;
+	BAO:0002848 lncrna:DISEASE_111 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_111
+	rdfs:label "kidney_failure_chronic" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_111 .
+
+lncrna:PUB_112
+	dc:title "The long non-coding RNA PFI protects against pulmonary fibrosis by interacting with splicing regulator SRSF1" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33981019 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_112
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:NA ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "SRSF1" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "A series of molecular assays to assess the role of the novel lncRNA NONMMUT060091. designated as pulmonary fibrosis inhibitor (PFI). which was significantly downregulated in lung fibrosis. Functionally. knockdown of endogenous PFI by smart silencer promoted proliferation. differentiation. and extracellular matrix (ECM) deposition in primary mouse lung fibroblasts (MLFs)." ;
+	rdfs:label "NONMMUT060091" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_112 ;
+	BAO:0002848 lncrna:DISEASE_112 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_112
+	rdfs:label "pulmonary_fibrosis" ;
+	CCF:tissue_provider_name "lung" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_112 .
+
+lncrna:PUB_113
+	dc:title "LncRNA MHRT Promotes Cardiac Fibrosis via miR-3185 Pathway Following Myocardial Infarction" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34334583 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_113
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097652 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Overexpression of MHRT promoted collagen production and CF proliferation. while silencing of MHRT showed the opposite effect." ;
+	rdfs:label "Mhrt" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_113 ;
+	BAO:0002848 lncrna:DISEASE_113 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_113
+	rdfs:label "myocardial_infarction" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_113 .
+
+lncrna:PUB_114
+	dc:title "Long non-coding RNA NORAD aggravates acute myocardial infarction by promoting fibrosis and apoptosis via miR-577/COBLL1 axis" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34355838 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_114
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000102869 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "NORAD aggravates acute myocardial infarction by promoting fibrosis and apoptosis via the miR-577/COBLL1 axis." ;
+	rdfs:label "Norad" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_114 ;
+	BAO:0002848 lncrna:DISEASE_114 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_114
+	rdfs:label "acute_myocardial_infarction" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_114 .
+
+lncrna:PUB_115
+	dc:title "NORAD lentivirus shRNA mitigates fibrosis and inflammatory responses in diabetic cardiomyopathy via the ceRNA network of NORAD/miR-125a-3p/Fyn" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34591118 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_115
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000102869 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "NORAD lentivirus shRNA improved cardiac function and fibrosis and reduced inflammatory responses in diabetic cardiomyopathy mice via the ceRNA network of NORAD/miR-125a-3p/Fyn." ;
+	rdfs:label "Norad" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_115 ;
+	BAO:0002848 lncrna:DISEASE_115 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_115
+	rdfs:label "diabetic_cardiomyopathy" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_115 .
+
+lncrna:PUB_116
+	dc:title "Silencing lncRNA GAS5 alleviates apoptosis and fibrosis in diabetic cardiomyopathy by targeting miR-26a/b-5p" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34091757 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_116
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000053332 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "GAS5 promotes diabetic cardiomyopathy progression by regulating miR-26a/b-5p." ;
+	rdfs:label "Gas5" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_116 ;
+	BAO:0002848 lncrna:DISEASE_116 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_116
+	rdfs:label "diabetic_cardiomyopathy" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_116 .
+
+lncrna:PUB_117
+	dc:title "Inhibition of Long Noncoding RNA SNHG20 Improves Angiotensin II-Induced Cardiac Fibrosis and Hypertrophy by Regulating the MicroRNA 335/ Galectin-3 Axis" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34228494 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_117
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000086859 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "miR-335" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Downregulation of SNHG20 effectively enhanced cell viability and decreased cell size of HL-1 cells and the expression levels of fibrosis-related proteins (fibronectin. collagen IaI. and alpha-SMA) and apoptosis-related proteins (cleaved caspase-3 and cleaved PARP). which were induced by angiotensin II treatment." ;
+	rdfs:label "Snhg20" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_117 ;
+	BAO:0002848 lncrna:DISEASE_117 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_117
+	rdfs:label "heart_failure" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_117 .
+
+lncrna:PUB_118
+	dc:title "M1 Bone Marrow-Derived Macrophage-Derived Extracellular Vesicles Inhibit Angiogenesis and Myocardial Regeneration Following Myocardial Infarction via the MALAT1/MicroRNA-25-3p/CDC42 Axis" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34745428 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_118
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092341 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "miR-25-3p" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "MALAT1 sponged miR-25-3p to upregulate CDC42. miR-25-3p overexpression promoted oxygen-glucose deprivation-treated cell viability. proliferation. and angiogenesis." ;
+	rdfs:label "Malat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_118 ;
+	BAO:0002848 lncrna:DISEASE_118 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_118
+	rdfs:label "myocardial_infarction" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_118 .
+
+lncrna:PUB_119
+	dc:title "LncRNA NRON promotes M2 macrophage polarization and alleviates atrial fibrosis through suppressing exosomal miR-23a derived from atrial myocytes" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33246743 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_119
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000086484 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "miR-23a" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "NRON promotes M2 macrophage polarization and alleviates atrial fibrosis through suppressing exosomal miR-23a derived from atrial myocytes." ;
+	rdfs:label "Nron" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_119 ;
+	BAO:0002848 lncrna:DISEASE_119 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_119
+	rdfs:label "atrial_fibrosis" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_119 .
+
+lncrna:PUB_120
+	dc:title "Long Noncoding RNA Small Nuclear RNA Host Gene 7 Knockdown Protects Mouse Cardiac Fibroblasts Against Myocardial Infarction by Regulating miR-455-3p/Platelet-Activating Factor Receptor Axis" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33929392 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_120
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:72091 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "miR-455-3p" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "LncRNA SNHG7 depletion exerted protective roles in apoptosis. fibrosis. and inflammation in Ang-II-induced cardiac fibroblasts  by regulating miR-455-3p/PTAFR axis. providing a potential molecular target for myocardial infarction therapy." ;
+	rdfs:label "Snhg7" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_120 ;
+	BAO:0002848 lncrna:DISEASE_120 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_120
+	rdfs:label "myocardial_infarction" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_120 .
+
+lncrna:PUB_121
+	dc:title "Ablation of lncRNA Miat attenuates pathological hypertrophy and heart failure" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34335976 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_121
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000097767 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Ablation of Miat attenuates pathological hypertrophy and heart failure. in part. by enhancing cardiomyocyte contractility." ;
+	rdfs:label "Miat" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_121 ;
+	BAO:0002848 lncrna:DISEASE_121 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_121
+	rdfs:label "myocardial_infarction" ;
+	CCF:tissue_provider_name "heart" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_121 .
+
+lncrna:PUB_122
+	dc:title "LncRNA GAS5 protects against TGF-beta-induced renal fibrosis via the Smad3/miRNA-142-5p axis" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34486400 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_122
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000053332 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Long noncoding RNA growth arrest-specific 5 (GAS5). acting in a renoprotective role via the Smad3/miRNA-142-5p axis. that modulates extracellular matrix formation and cell apoptosis." ;
+	rdfs:label "Gas5" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_122 ;
+	BAO:0002848 lncrna:DISEASE_122 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_122
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_122 .
+
+lncrna:PUB_123
+	dc:title "LncRNA lnc-ISG20 promotes renal fibrosis in diabetic nephropathy by inducing AKT phosphorylation through miR-486-5p/NFAT5" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33939247 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_123
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000039236 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Lnc-ISG20 promotes the renal fibrosis process in diabetic nephropathy by activating AKT through the miR-486-5p/NFAT5 axis." ;
+	rdfs:label "Isg20" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_123 ;
+	BAO:0002848 lncrna:DISEASE_123 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_123
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_123 .
+
+lncrna:PUB_124
+	dc:title "Knockdown of lncRNA XIST inhibited apoptosis and inflammation in renal fibrosis via microRNA-19b-mediated downregulation of SOX6" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34461493 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_124
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000086503 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "miR-19b" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Knockdown of XIST inhibited apoptosis and inflammation of renal fibrosis via miR-19b-mediated downregulation of SOX6." ;
+	rdfs:label "Xist" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_124 ;
+	BAO:0002848 lncrna:DISEASE_124 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_124
+	rdfs:label "renal_fibrosis" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_124 .
+
+lncrna:PUB_125
+	dc:title "Sp1-Induced lncRNA Rmrp Promotes Mesangial Cell Proliferation and Fibrosis in Diabetic Nephropathy by Modulating the miR-1a-3p/JunD Pathway" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34512545 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_125
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000088088 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Sp1 induced lncRNA Rmrp could drive the expression of JunD via sponging miR-1a-3p in diabetic nephropathy progression." ;
+	rdfs:label "Rmrp" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_125 ;
+	BAO:0002848 lncrna:DISEASE_125 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_125
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_125 .
+
+lncrna:PUB_126
+	dc:title "LncRNA SOX2OT alleviates mesangial cell proliferation and fibrosis in diabetic nephropathy via Akt/mTOR-mediated autophagy" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:34238205 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_126
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000105265 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "PI3K-AKT SIGNALING PATHWAY" ;
+	SIO:000225 "LncRNA SOX2OT alleviates the pathogenesis of diabetic nephropathy via regulating Akt/mTOR-mediated autophagy." ;
+	rdfs:label "Sox2ot" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_126 ;
+	BAO:0002848 lncrna:DISEASE_126 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_126
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_126 .
+
+lncrna:PUB_127
+	dc:title "The Long Noncoding RNA-H19 Mediates the Progression of Fibrosis from Acute Kidney Injury to Chronic Kidney Disease by Regulating the miR-196a/Wnt/beta-Catenin Signaling" ;
+	dc:date 2022 ;
+	owl:sameAs PubMed:34818249 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_127
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "WNT SIGNALING PATHWAY" ;
+	SIO:000225 "LncRNA-H19 overexpression significantly upregulates Wnt1 and beta-catenin expression in kidney tissues and fibroblasts of mice." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_127 ;
+	BAO:0002848 lncrna:DISEASE_127 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_127
+	rdfs:label "chronic_kidney_disease" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_127 .
+
+lncrna:PUB_128
+	dc:title "The Long Noncoding RNA-H19 Mediates the Progression of Fibrosis from Acute Kidney Injury to Chronic Kidney Disease by Regulating the miR-196a/Wnt/beta-Catenin Signaling" ;
+	dc:date 2022 ;
+	owl:sameAs PubMed:34818249 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_128
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000000031 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "WNT SIGNALING PATHWAY" ;
+	SIO:000225 "LncRNA-H19 overexpression significantly upregulates Wnt1 and beta-catenin expression in kidney tissues and fibroblasts of mice." ;
+	rdfs:label "H19" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_128 ;
+	BAO:0002848 lncrna:DISEASE_128 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_128
+	rdfs:label "acute_kidney_injury" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_128 .
+
+lncrna:PUB_129
+	dc:title "lncRNA MALAT1 Promotes Renal Fibrosis in Diabetic Nephropathy by Targeting the miR-2355-3p/IL6ST Axis" ;
+	dc:date 2021 ;
+	owl:sameAs PubMed:33995063 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_129
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000092341 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "MALAT1 overexpression may enhance renal fibrosis in diabetic rats and cell damage in high glucose-induced HK-2 cells via the miR-2355-3p/IL6ST axis." ;
+	rdfs:label "Malat1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_129 ;
+	BAO:0002848 lncrna:DISEASE_129 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_129
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_129 .
+
+lncrna:PUB_130
+	dc:title "LncRNA Dlx6os1 Accelerates Diabetic Nephropathy Progression by Epigenetically Repressing SOX6 via Recruiting EZH2" ;
+	dc:date 2022 ;
+	owl:sameAs PubMed:35038705 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_130
+	SIO:001156 "up-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000090063 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "SOX6" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "LncRNA Dlx6os1 accelerates the progression of diabetic nephropathy by epigenetically repressing SOX6 via recruiting EZH2." ;
+	rdfs:label "Dlx6os1" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_130 ;
+	BAO:0002848 lncrna:DISEASE_130 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_130
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_130 .
+
+lncrna:PUB_131
+	dc:title "Knock-Down of Long Non-Coding RNA ANRIL Suppresses Mouse Mesangial Cell Proliferation. Fibrosis. Inflammation via Regulating Wnt/beta-Catenin and MEK/ERK Pathways in Diabetic Nephropathy" ;
+	dc:date 2022 ;
+	owl:sameAs PubMed:32726814 ;
+	rdfs:type NCIT:C47902 .
+
+lncrna:ARN_131
+	SIO:001156 "down-regulation" ;
+	owl:sameAs ENSEMBL:ENSMUSG00000086035 ;
+	dc:type NCIT:C88924 ;
+	SIO:000291 "NA" ;
+	BCO:pathway "NA" ;
+	SIO:000225 "Lnc-ANRIL knock-down suppresses mouse mesangial cell proliferation. fibrosis. inflammation. Wnt/beta-catenin and MEK/ERK pathways in diabetic nephropathy." ;
+	rdfs:label "ANRIL" ;
+	uniprot:organism <https://www.uniprot.org/taxonomy/39442> ;
+	rdf:type NCIT:C1936 ;
+	BCO:namePublishedin lncrna:PUB_131 ;
+	BAO:0002848 lncrna:DISEASE_131 .
+
+<https://www.uniprot.org/taxonomy/39442>
+	rdfs:label "mus_musculus" .
+
+lncrna:DISEASE_131
+	rdfs:label "diabetic_nephropathy" ;
+	CCF:tissue_provider_name "kidney" ;
+	rdf:type NCIT:C2991 ;
+	BAO:0002846 lncrna:ARN_131 .
+
